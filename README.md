@@ -21,4 +21,4 @@ All foreign keys use `ON UPDATE CASCADE` so an exceptional correction to a paren
 | `enrollment.student_id → student.student_id` | RESTRICT | Removing a student must not silently erase enrollment history. |
 | `enrollment.section_id → section.section_id` | RESTRICT | Removing a section must not silently erase its enrollment history. |
 
-This is a database rebuild, not an account deployment receipt. A submission screenshot must be taken from the actual Supabase project after running these files.
+
